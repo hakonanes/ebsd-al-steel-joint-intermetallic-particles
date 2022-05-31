@@ -1,0 +1,23 @@
+# From PyPI
+dask
+diffpy.structure
+# diffsims
+hyperspy
+importlib_metadata
+jupyterlab
+# kikuchipy >= 0.5.7
+matplotlib
+matplotlib_scalebar
+morphops
+numpy
+orix>=0.9
+pandas
+pyebsdindex
+PyQt5
+scipy
+scikit-image
+tqdm
+
+# From GitHub
+diffsims @ git+https://github.com/hakonanes/diffsims@new-reciprocal-lattice-vector-class
+kikuchipy @ git+https://github.com/hakonanes/kikuchipy@geometrical-simulations-all-point-groups
