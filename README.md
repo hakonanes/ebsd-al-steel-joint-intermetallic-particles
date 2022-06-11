@@ -1,6 +1,6 @@
 # Analysis of electron backscatter diffraction (EBSD) patterns of five phases from an Al-steel joint 
 
-This repository contains Jupyter notebooks and a MATLAB script necessary to reproduce the EBSD results in the conference paper "" which was recently submitted to X.
+This repository contains Jupyter notebooks and a MATLAB script necessary to reproduce the EBSD results in the conference paper "Intermetallic phase layers in cold metal transfer aluminium-steel joints with an Al-Si-Mn filler alloy" which was recently submitted to Materials Transactions - ICAA 18 special issue.
 
 The content in this repository is licensed under the GPLv3+, since many of the softwares used have this license.
 
