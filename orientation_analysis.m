@@ -3,7 +3,7 @@
 %
 % Håkon Wiik Ånes (hakon.w.anes@ntnu.no) and Tina Bergh
 % (tina.bergh@ntnu.no)
-% 2022-05-31
+% 2022-06-11
 %
 % Requires MTEX and export_fig
 
@@ -168,7 +168,7 @@ vectors_alfesi = [...
     [1,  0,  0;  0,  0,  1],... % 6
     [1,  0,  1;  0,  2,  0],... % 7
     [4,  1,  1; -2, -1,  9],... % 8 - Mackay
-    [1,  0,  0;  0,  0,  1]...  % 9
+    [1,  0,  0;  0,  1,  1]...  % 9
 ];
 n_or = length(vectors_al) / 3;
 vectors_al = reshape(vectors_al, [2, 3, n_or]);
@@ -189,7 +189,7 @@ for i=1:n_or
     or_al_alfesi = [or_al_alfesi or_i];
 end
 
-%% Distance to orientation relationships
+%% Misorientation angle to orientation relationships
 for i=1:(n_clusters - 1)
     angle(center_mori(i), or_al_alfesi) / degree
 end
