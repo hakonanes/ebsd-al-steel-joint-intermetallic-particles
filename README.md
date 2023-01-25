@@ -1,6 +1,33 @@
 # Analysis of electron backscatter diffraction (EBSD) patterns of five phases from an Al-steel joint 
 
-This repository contains Jupyter notebooks and a MATLAB script necessary to reproduce the EBSD results in the conference paper "Intermetallic phase layers in cold metal transfer aluminium-steel joints with an Al-Si-Mn filler alloy" which was recently submitted to Materials Transactions - ICAA 18 special issue.
+This repository contains Jupyter notebooks and a MATLAB script necessary to reproduce the EBSD results in the conference paper *"Intermetallic phase layers in cold metal transfer aluminium-steel joints with an Al-Si-Mn filler alloy"* which was recently submitted to Materials Transactions - ICAA 18 special issue ([doi](https://doi.org/10.2320/matertrans.MT-LA2022046)):
+
+```bibtex
+@article{bergh2023intermetallic,
+  author  = {Tina Bergh and Håkon Wiik Ånes and Ragnhild Aune and Sigurd Wenner and Randi Holmestad and Xiaobo Ren and Per Erik Vullum},
+  title   = {Intermetallic Phase Layers in Cold Metal Transfer Aluminium-Steel Welds with an Al–Si–Mn Filler Alloy},
+  doi     = {10.2320/matertrans.MT-LA2022046},
+  number  = {2},
+  pages   = {352-359},
+  volume  = {64},
+  groups  = {ED, Aluminium, Steel},
+  journal = {MATERIALS TRANSACTIONS},
+  year    = {2023},
+}
+```
+
+The supplementary information including the raw EBSD data to reproduce the results are available on Zenodo ([doi](https://doi.org/10.5281/zenodo.6634353)):
+
+```bibtex
+@dataset{bergh2023intermetallic_si,
+  author    = {Bergh, Tina and Ånes, Håkon Wiik and Wenner, Sigurd},
+  title     = {{Supplementary Information and EBSD data for 'Intermetallic Phase Layers in Cold Metal Transfer Aluminium-Steel Welds with an Al-Si-Mn Filler Alloy'}},
+  doi       = {10.5281/zenodo.6634354},
+  month     = aug,
+  publisher = {Zenodo},
+  year      = {2022},
+}
+```
 
 The content in this repository is licensed under the GPLv3+, since many of the softwares used have this license.
 
